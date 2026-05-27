@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BIET College Student Scholarship Management System</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main id="app"></main>
+  <template id="login-template">
+    <section class="login-screen">
+      <div class="brand-panel">
+        <div class="brand-mark">SMS</div>
+        <h1>BIET College Student Scholarship Management System</h1>
+        <p>Institution-grade DBMS workflow for scholarship discovery, eligibility, review, approval, and fund disbursement.</p>
+        <div class="login-metrics">
+          <span><strong>9</strong> relational tables</span>
+          <span><strong>4</strong> workflow stages</span>
+          <span><strong>100%</strong> auditable</span>
+        </div>
+      </div>
+      <form class="login-card" id="login-form">
+        <p class="eyebrow">Secure Portal</p>
+        <h2>Sign in</h2>
+        <label>Email<input type="email" name="email" value="admin@sms.edu" required></label>
+        <label>Password<input type="password" name="password" value="admin123" required></label>
+        <button type="submit">Access Dashboard</button>
+        <div class="demo-users">
+          <button type="button" data-login="admin@sms.edu|admin123">Admin</button>
+          <button type="button" data-login="reviewer@sms.edu|review123">Reviewer</button>
+          <button type="button" data-login="sahana@sms.edu|student123">Student</button>
+        </div>
+        <p id="login-error" class="error"></p>
+      </form>
+    </section>
+  </template>
+  <script src="/app.js"></script>
+</body>
+</html>

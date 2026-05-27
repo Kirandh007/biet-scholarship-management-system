@@ -1,0 +1,10 @@
+Set-Location -Path $PSScriptRoot
+Write-Host ""
+Write-Host "Starting Scholarship Management System..."
+Write-Host "Keep this PowerShell window open."
+Write-Host "Open this URL in browser: http://127.0.0.1:8000"
+Write-Host ""
+& "C:\Users\kiran\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" "server.py"
+Write-Host ""
+Write-Host "Server stopped or failed to start. If there is an error above, send a screenshot."
+Read-Host "Press Enter to close"
