@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: scholarship-management-system
+    name: biet-scholarship-management-system
     runtime: python
     buildCommand: ""
-    startCommand: python server.py
+    startCommand: python akshara.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.10
