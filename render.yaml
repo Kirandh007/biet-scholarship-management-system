@@ -3,7 +3,7 @@ services:
     name: biet-scholarship-management-system
     runtime: python
     buildCommand: ""
-    startCommand: python akshara.py
+    startCommand: python portal.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.10
